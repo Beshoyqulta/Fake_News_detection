@@ -1,0 +1,62 @@
+source,domain,field,trusted
+BBC News,bbc.com,General News,True
+Reuters,reuters.com,General News,True
+Associated Press,apnews.com,General News,True
+The New York Times,nytimes.com,General News,True
+The Guardian,theguardian.com,General News,True
+Al Jazeera,aljazeera.com,General News,True
+NPR,npr.org,General News,True
+DW News,dw.com,General News,True
+Nature,nature.com,Science and Technology,True
+Science Magazine,sciencemag.org,Science and Technology,True
+Scientific American,scientificamerican.com,Science and Technology,True
+MIT Technology Review,technologyreview.com,Science and Technology,True
+Wired,wired.com,Science and Technology,True
+Ars Technica,arstechnica.com,Science and Technology,True
+The Verge,theverge.com,Science and Technology,True
+The Wall Street Journal,wsj.com,Business and Finance,True
+Bloomberg,bloomberg.com,Business and Finance,True
+Financial Times,ft.com,Business and Finance,True
+CNBC,cnbc.com,Business and Finance,True
+Forbes,forbes.com,Business and Finance,True
+The Economist,economist.com,Business and Finance,True
+World Health Organization,who.int,Health and Medicine,True
+Centers for Disease Control and Prevention,cdc.gov,Health and Medicine,True
+Mayo Clinic,mayoclinic.org,Health and Medicine,True
+WebMD,webmd.com,Health and Medicine,True
+Healthline,healthline.com,Health and Medicine,True
+Medical News Today,medicalnewstoday.com,Health and Medicine,True
+Politico,politico.com,Politics and International Affairs,True
+Foreign Policy,foreignpolicy.com,Politics and International Affairs,True
+The Hill,thehill.com,Politics and International Affairs,True
+The Washington Post,washingtonpost.com,Politics and International Affairs,True
+The Diplomat,thediplomat.com,Politics and International Affairs,True
+National Geographic,nationalgeographic.com,Environment and Climate,True
+Grist,grist.org,Environment and Climate,True
+Inside Climate News,insideclimatenews.org,Environment and Climate,True
+Carbon Brief,carbonbrief.org,Environment and Climate,True
+Mongabay,mongabay.com,Environment and Climate,True
+Inside Higher Ed,insidehighered.com,Education,True
+The Chronicle of Higher Education,chronicle.com,Education,True
+EdSurge,edsurge.com,Education,True
+Times Higher Education,timeshighereducation.com,Education,True
+Variety,variety.com,Entertainment and Culture,True
+The Hollywood Reporter,hollywoodreporter.com,Entertainment and Culture,True
+Rolling Stone,rollingstone.com,Entertainment and Culture,True
+Pitchfork,pitchfork.com,Entertainment and Culture,True
+Snopes,snopes.com,Fact-Checking,True
+FactCheck.org,factcheck.org,Fact-Checking,True
+PolitiFact,politifact.com,Fact-Checking,True
+The Poynter Institute,poynter.org,Fact-Checking,True
+AFP Fact Check,factcheck.afp.com,Fact-Checking,True
+CNN,cnn.com,Regional (US),True
+USA Today,usatoday.com,Regional (US),True
+Los Angeles Times,latimes.com,Regional (US),True
+Le Monde,lemonde.fr,Regional (Europe),True
+Der Spiegel,spiegel.de,Regional (Europe),True
+El País,elpais.com,Regional (Europe),True
+The Straits Times,straitstimes.com,Regional (Asia),True
+The Japan Times,japantimes.co.jp,Regional (Asia),True
+South China Morning Post,scmp.com,Regional (Asia),True
+Daily Nation,nation.co.ke,Regional (Africa),True
+Mail & Guardian,mg.co.za,Regional (Africa),True
