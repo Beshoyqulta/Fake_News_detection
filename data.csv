@@ -1,0 +1,992 @@
+source,domain,field,trusted
+Nexus News,nexusnews.org,General News,True
+Global View,globalview.com,General News,True
+Unity Herald,unityherald.net,General News,True
+World Scope,worldscope.info,General News,True
+Clear Dispatch,clear-dispatch.com,General News,True
+Daily Beacon,dailybeacon.org,General News,True
+Truth Times,truth-times.net,General News,True
+Nova Press,novapress.info,General News,True
+Core Dispatch,coredispatch.com,General News,True
+Bright Herald,bright-herald.org,General News,True
+Focus Times,focustimes.net,General News,True
+Echo Press,echopress.info,General News,True
+Globe Herald,globeherald.com,General News,True
+Star Dispatch,stardispatch.org,General News,True
+Open Dispatch,opendispatch.net,General News,True
+True Scope,truescope.info,General News,True
+Civic Herald,civicherald.com,General News,True
+Hope Dispatch,hopedispatch.org,General News,True
+Light Times,lighttimes.net,General News,True
+Vision Herald,visionherald.info,General News,True
+Summit Dispatch,summitdispatch.com,General News,True
+Beacon Herald,beaconherald.org,General News,True
+Rise Press,risepress.net,General News,True
+Pure Dispatch,puredispatch.info,General News,True
+Bold Herald,boldherald.com,General News,True
+Clarity Dispatch,claritydispatch.org,General News,True
+Unity Scope,unityscope.net,General News,True
+Global Herald,global-herald.info,General News,True
+Insight Dispatch,insightdispatch.com,General News,True
+Truth Scope,truthscope.org,General News,True
+World Dispatch,world-dispatch.net,General News,True
+Daily Scope,dailyscope.info,General News,True
+Core Herald,core-herald.com,General News,True
+Bright Dispatch,brightdispatch.org,General News,True
+Open Herald,openherald.net,General News,True
+Star Scope,starscope.info,General News,True
+Clear Herald,clearherald.com,General News,True
+Hope Scope,hopescope.org,General News,True
+Vision Dispatch,vision-dispatch.net,General News,True
+Advance Herald,advanceherald.info,General News,True
+Tech Scope,techscope.org,Science and Technology,True
+Future Dispatch,futuredispatch.com,Science and Technology,True
+Inno Times,innotimes.net,Science and Technology,True
+Science Herald,scienceherald.info,Science and Technology,True
+Tech Dispatch,tech-dispatch.com,Science and Technology,True
+Digital Scope,digitalscope.org,Science and Technology,True
+Nova Science,novascience.net,Science and Technology,True
+Bright Science,brightscience.info,Science and Technology,True
+Core Tech,coretech.com,Science and Technology,True
+Insight Science,insightscience.org,Science and Technology,True
+True Tech,true-tech.net,Science and Technology,True
+Open Tech,opentech.info,Science and Technology,True
+Star Science,starscience.com,Science and Technology,True
+Clear Science,clearscience.org,Science and Technology,True
+Hope Tech,hope-tech.net,Science and Technology,True
+Vision Science,visionscience.info,Science and Technology,True
+Advance Tech,advance-tech.com,Science and Technology,True
+Pure Science,purescience.org,Science and Technology,True
+Bold Tech,bold-tech.net,Science and Technology,True
+Clarity Science,clarityscience.info,Science and Technology,True
+Unity Tech,unity-tech.com,Science and Technology,True
+Global Science,globalscience.org,Science and Technology,True
+Daily Tech,daily-tech.net,Science and Technology,True
+Rise Science,risescience.info,Science and Technology,True
+Light Tech,light-tech.com,Science and Technology,True
+Beacon Science,beaconscience.org,Science and Technology,True
+Summit Tech,summit-tech.net,Science and Technology,True
+Focus Science,focus-science.info,Science and Technology,True
+Echo Science,echoscience.com,Science and Technology,True
+Globe Science,globescience.org,Science and Technology,True
+Trade Scope,tradescope.com,Business and Finance,True
+Wealth Dispatch,wealthdispatch.org,Business and Finance,True
+Market Herald,marketherald.info,Business and Finance,True
+Finance Scope,financescope.net,Business and Finance,True
+Core Finance,corefinance.com,Business and Finance,True
+Insight Trade,insighttrade.org,Business and Finance,True
+True Wealth,truewealth.info,Business and Finance,True
+Open Finance,openfinance.net,Business and Finance,True
+Star Trade,startrade.com,Business and Finance,True
+Clear Finance,clearfinance.org,Business and Finance,True
+Hope Trade,hopetrade.net,Business and Finance,True
+Vision Finance,visionfinance.info,Business and Finance,True
+Advance Trade,advancetrade.com,Business and Finance,True
+Pure Trade,puretrade.org,Business and Finance,True
+Bold Finance,boldfinance.net,Business and Finance,True
+Clarity Trade,claritytrade.info,Business and Finance,True
+Unity Finance,unityfinance.com,Business and Finance,True
+Global Finance,global-finance.net,Business and Finance,True
+Daily Trade,dailytrade.info,Business and Finance,True
+Rise Finance,risefinance.org,Business and Finance,True
+Care Scope,carescope.com,Health and Medicine,True
+Well Herald,wellherald.org,Health and Medicine,True
+Health Dispatch,healthdispatch.info,Health and Medicine,True
+Med Scope,medscope.net,Health and Medicine,True
+Core Care,corecare.com,Health and Medicine,True
+Insight Health,insighthealth.org,Health and Medicine,True
+True Health,truehealth.info,Health and Medicine,True
+Open Care,opencare.net,Health and Medicine,True
+Star Health,starhealth.com,Health and Medicine,True
+Clear Care,clearcare.org,Health and Medicine,True
+Hope Health,hopehealth.net,Health and Medicine,True
+Vision Care,visioncare.info,Health and Medicine,True
+Advance Health,advancehealth.com,Health and Medicine,True
+Pure Care,purecare.org,Health and Medicine,True
+Bold Health,boldhealth.net,Health and Medicine,True
+Clarity Care,claritycare.info,Health and Medicine,True
+Unity Health,unityhealth.com,Health and Medicine,True
+Global Care,globalcare.net,Health and Medicine,True
+Daily Health,dailyhealth.info,Health and Medicine,True
+Rise Care,risecare.org,Health and Medicine,True
+State Scope,statescope.com,Politics and International Affairs,True
+Policy Herald,policyherald.org,Politics and International Affairs,True
+Global Affairs,global-affairs.info,Politics and International Affairs,True
+Civic Scope,civicscope.net,Politics and International Affairs,True
+Core Policy,corepolicy.com,Politics and International Affairs,True
+Insight Affairs,insightaffairs.org,Politics and International Affairs,True
+True Policy,truepolicy.info,Politics and International Affairs,True
+Open Affairs,openaffairs.net,Politics and International Affairs,True
+Star Policy,starpolicy.com,Politics and International Affairs,True
+Clear Affairs,clearaffairs.org,Politics and International Affairs,True
+Hope Policy,hopepolicy.net,Politics and International Affairs,True
+Vision Affairs,visionaffairs.info,Politics and International Affairs,True
+Advance Policy,advancepolicy.com,Politics and International Affairs,True
+Pure Affairs,pureaffairs.org,Politics and International Affairs,True
+Bold Policy,boldpolicy.net,Politics and International Affairs,True
+Clarity Affairs,clarityaffairs.info,Politics and International Affairs,True
+Unity Policy,unitypolicy.com,Politics and International Affairs,True
+Global Policy,global-policy.net,Politics and International Affairs,True
+Daily Affairs,dailyaffairs.info,Politics and International Affairs,True
+Rise Policy,risepolicy.org,Politics and International Affairs,True
+Green Scope,greenscope.com,Environment and Climate,True
+Eco Herald,ecoherald.org,Environment and Climate,True
+Planet Dispatch,planetdispatch.info,Environment and Climate,True
+Earth Scope,earthscope.net,Environment and Climate,True
+Core Green,coregreen.com,Environment and Climate,True
+Insight Eco,insighteco.org,Environment and Climate,True
+True Green,truegreen.info,Environment and Climate,True
+Open Green,opengreen.net,Environment and Climate,True
+Star Eco,stareco.com,Environment and Climate,True
+Clear Green,clear-green.org,Environment and Climate,True
+Hope Green,hopegreen.net,Environment and Climate,True
+Vision Eco,visioneco.info,Environment and Climate,True
+Advance Green,advancegreen.com,Environment and Climate,True
+Pure Eco,pureeco.org,Environment and Climate,True
+Bold Green,boldgreen.net,Environment and Climate,True
+Clarity Eco,clarityeco.info,Environment and Climate,True
+Unity Green,unitygreen.com,Environment and Climate,True
+Global Eco,global-eco.net,Environment and Climate,True
+Daily Green,dailygreen.info,Environment and Climate,True
+Rise Eco,riseeco.org,Environment and Climate,True
+Learn Scope,learnscope.com,Education,True
+Edu Herald,eduherald.org,Education,True
+School Dispatch,schooldispatch.info,Education,True
+Academic Scope,academicscope.net,Education,True
+Core Learn,corelearn.com,Education,True
+Insight Edu,insightedu.org,Education,True
+True Learn,truelearn.info,Education,True
+Open Learn,openlearn.net,Education,True
+Star Edu,staredu.com,Education,True
+Clear Learn,clearlearn.org,Education,True
+Hope Edu,hopeedu.net,Education,True
+Vision Learn,visionlearn.info,Education,True
+Advance Edu,advanceedu.com,Education,True
+Pure Learn,purelearn.org,Education,True
+Bold Edu,boledu.net,Education,True
+Clarity Learn,claritylearn.info,Education,True
+Arts Scope,artsscope.com,Entertainment and Culture,True
+Culture Herald,cultureherald.org,Entertainment and Culture,True
+Pop Dispatch,popdispatch.info,Entertainment and Culture,True
+Trend Scope,trendscope.net,Entertainment and Culture,True
+Core Culture,coreculture.com,Entertainment and Culture,True
+Insight Arts,insightarts.org,Entertainment and Culture,True
+True Culture,trueculture.info,Entertainment and Culture,True
+Open Culture,openculture.net,Entertainment and Culture,True
+Star Arts,stararts.com,Entertainment and Culture,True
+Clear Culture,clearculture.org,Entertainment and Culture,True
+Hope Arts,hopearts.net,Entertainment and Culture,True
+Vision Culture,visionculture.info,Entertainment and Culture,True
+Advance Culture,advanceculture.com,Entertainment and Culture,True
+Pure Arts,purearts.org,Entertainment and Culture,True
+Bold Culture,boldculture.net,Entertainment and Culture,True
+Clarity Culture,clarity-culture.info,Entertainment and Culture,True
+Verify Scope,verifyscope.com,Fact-Checking,True
+Fact Herald,factherald.org,Fact-Checking,True
+Truth Dispatch,truthdispatch.info,Fact-Checking,True
+Check Scope,checkscope.net,Fact-Checking,True
+Core Check,corecheck.com,Fact-Checking,True
+Insight Verify,insightverify.org,Fact-Checking,True
+True Check,truecheck.info,Fact-Checking,True
+Open Check,opencheck.net,Fact-Checking,True
+Star Verify,starverify.com,Fact-Checking,True
+Clear Check,clearcheck.org,Fact-Checking,True
+Asia Scope,asiascope.net,Regional (Asia),True
+Europe Herald,europeherald.com,Regional (Europe),True
+Africa Dispatch,africadispatch.info,Regional (Africa),True
+Oceania Scope,oceaniascope.org,Regional (Oceania),True
+Americas Herald,americasherald.net,Regional (North America),True
+Middle East Scope,middleeastscope.com,Regional (Middle East),True
+Latin Dispatch,latindispatch.info,Regional (Latin America),True
+Pacific Herald,pacificherald.org,Regional (Oceania),True
+Viral Hoax,viralhoax.com,General News,False
+Myth Dispatch,mythdispatch.net,General News,False
+Lie Herald,lieherald.info,,False
+Scam Scope,scamscope.org,General News,False
+Hype Dispatch,hypedispatch.com,General News,False
+False Times,falsetimes.net,General News,False
+Rumor Herald,rumorherald.info,,False
+Spin Dispatch,spindispatch.org,General News,False
+Hoax Times,hoaxtimes.com,General News,False
+Gossip Scope,gossipscope.net,General News,False
+Wild Herald,wildherald.info,,False
+Fake Dispatch,fakedispatch.org,General News,False
+Myth Times,mythtimes.com,General News,False
+Lie Scope,liescope.net,General News,False
+Scam Herald,scamherald.info,,False
+Hype Times,hypetimes.org,General News,False
+False Scope,falsescope.com,General News,False
+Rumor Times,rumortimes.net,General News,False
+Spin Herald,spinherald.info,,False
+Hoax Scope,hoaxscope.org,General News,False
+Gossip Herald,gossipherald.com,General News,False
+Wild Times,wildtimes.net,General News,False
+Fake Scope,fakescope.info,,False
+Myth Herald,mythherald.org,General News,False
+Lie Times,lietimes.com,General News,False
+Scam Dispatch,scam-dispatch.net,General News,False
+Hype Herald,hypeherald.info,,False
+False Herald,falseherald.org,General News,False
+Rumor Scope,rumorscope.com,General News,False
+Spin Scope,spinscope.net,General News,False
+Hoax Herald,hoaxherald.info,,False
+Gossip Times,gossiptimes.org,General News,False
+Wild Scope,wildscope.com,General News,False
+Fake Herald,fakeherald.net,General News,False
+Myth Scope,mythscope.info,,False
+Lie Dispatch,liedispatch.org,General News,False
+Scam Times,scam-times.com,General News,False
+Hype Scope,hypescope.net,General News,False
+False Dispatch,falsedispatch.info,,False
+Rumor Dispatch,rumordispatch.org,General News,False
+Spin Times,spintimes.net,General News,False
+Hoax Dispatch,hoaxdispatch.com,General News,False
+Gossip Dispatch,gossipdispatch.info,,False
+Wild Dispatch,wilddispatch.org,General News,False
+Fake Times,faketimes.net,General News,False
+Plot Scope,plotscope.com,Politics and International Affairs,False
+Conspiracy Herald,conspiracyherald.net,Politics and International Affairs,False
+False Policy,falsepolicy.info,,False
+Lie State,liestate.org,Politics and International Affairs,False
+Scam Policy,scampolicy.com,Politics and International Affairs,False
+Hype Affairs,hypeaffairs.net,Politics and International Affairs,False
+Fake State,fakestate.info,,False
+Myth Policy,mythpolicy.org,Politics and International Affairs,False
+Rumor Affairs,rumoraffairs.com,Politics and International Affairs,False
+Spin State,spinstate.net,Politics and International Affairs,False
+Hoax Policy,hoaxpolicy.info,,False
+Gossip Affairs,gossipaffairs.org,Politics and International Affairs,False
+Wild State,wildstate.com,Politics and International Affairs,False
+Fake Policy,fakepolicy.net,Politics and International Affairs,False
+Myth State,mythstate.info,,False
+Lie Affairs,lieaffairs.org,Politics and International Affairs,False
+Scam State,scamstate.com,Politics and International Affairs,False
+Hype Policy,hypepolicy.net,Politics and International Affairs,False
+False Affairs,falseaffairs.info,,False
+Rumor Policy,rumorpolicy.org,Politics and International Affairs,False
+Spin Affairs,spinaffairs.com,Politics and International Affairs,False
+Hoax State,hoaxstate.net,Politics and International Affairs,False
+Gossip Policy,gossippolicy.info,,False
+Wild Policy,wildpolicy.org,Politics and International Affairs,False
+Fake Affairs,fakeaffairs.com,Politics and International Affairs,False
+Myth Affairs,mythaffairs.net,Politics and International Affairs,False
+Lie Policy,liepolicy.com,Politics and International Affairs,False
+Scam Affairs,scamaffairs.info,,False
+Hype State,hypestate.org,Politics and International Affairs,False
+Rumor State,rumorstate.com,Politics and International Affairs,False
+Spin Policy,spinpolicy.info,,False
+Hoax Affairs,hoaxaffairs.org,Politics and International Affairs,False
+Gossip State,gossipstate.net,Politics and International Affairs,False
+Wild Affairs,wildaffairs.com,Politics and International Affairs,False
+Satire Scope,satirescope.com,Entertainment and Culture,False
+Gag Herald,gagherald.net,Entertainment and Culture,False
+Mock Times,mocktimes.info,,False
+Parody Scope,parodyscope.org,Entertainment and Culture,False
+Fun Herald,funherald.com,Entertainment and Culture,False
+Hoax Culture,hoaxculture.net,Entertainment and Culture,False
+Spoof Times,spooftimes.info,,False
+Wit Scope,witscope.org,Entertainment and Culture,False
+Laugh Herald,laughherald.com,Entertainment and Culture,False
+Fake Arts,fakearts.net,Entertainment and Culture,False
+Myth Culture,mythculture.info,,False
+Lie Pop,liepop.org,Entertainment and Culture,False
+Scam Culture,scamculture.com,Entertainment and Culture,False
+Hype Arts,hypearts.net,Entertainment and Culture,False
+False Pop,falsepop.info,,False
+Rumor Culture,rumorculture.org,Entertainment and Culture,False
+Spin Arts,spinarts.com,Entertainment and Culture,False
+Hoax Pop,hoaxpop.net,Entertainment and Culture,False
+Gossip Arts,gossiparts.info,,False
+Wild Culture,wildculture.org,Entertainment and Culture,False
+Fake Culture,fakeculture.com,Entertainment and Culture,False
+Myth Arts,mytharts.net,Entertainment and Culture,False
+Lie Culture,lieculture.info,,False
+Scam Pop,scampop.org,Entertainment and Culture,False
+Hype Culture,hypeculture.com,Entertainment and Culture,False
+False Culture,falseculture.net,Entertainment and Culture,False
+Rumor Pop,rumorpop.info,,False
+Spin Culture,spinculture.org,Entertainment and Culture,False
+Hoax Arts,hoaxarts.com,Entertainment and Culture,False
+Gossip Culture,gossipculture.net,Entertainment and Culture,False
+Wild Pop,wildpop.info,,False
+Fake Pop,fakepop.org,Entertainment and Culture,False
+Myth Pop,mythpop.com,Entertainment and Culture,False
+Lie Arts,liearts.net,Entertainment and Culture,False
+Scam Arts,scamarts.info,,False
+Hype Pop,hypepop.org,Entertainment and Culture,False
+False Arts,falsearts.com,Entertainment and Culture,False
+Rumor Arts,rumorarts.net,Entertainment and Culture,False
+Spin Pop,spinpop.info,,False
+Health Hoax,healthhoax.com,Health and Medicine,False
+Care Lie,carelie.net,Health and Medicine,False
+Myth Wellness,mythwellness.info,,False
+Scam Health,scamhealth.org,Health and Medicine,False
+False Care,falsecare.com,Health and Medicine,False
+Hype Wellness,hypewellness.net,Health and Medicine,False
+Fake Health,fakehealth.info,,False
+Rumor Med,rumormed.org,Health and Medicine,False
+Spin Wellness,spinwellness.com,Health and Medicine,False
+Hoax Care,hoaxcare.net,Health and Medicine,False
+Gossip Health,gossiphealth.info,,False
+Wild Med,wildmed.org,Health and Medicine,False
+Fake Care,fakecare.com,Health and Medicine,False
+Myth Health,mythhealth.net,Health and Medicine,False
+Lie Wellness,liewellness.info,,False
+Scam Care,scam-care.org,Health and Medicine,False
+Hype Health,hypehealth.com,Health and Medicine,False
+False Wellness,falsewellness.net,Health and Medicine,False
+Rumor Care,rumorcare.org,Health and Medicine,False
+Spin Health,spinhealth.info,,False
+Market Hoax,markethoax.com,Business and Finance,False
+Profit Lie,profitlie.net,Business and Finance,False
+Myth Wealth,mythwealth.info,,False
+Scam Trade,scamtrade.org,Business and Finance,False
+False Market,falsemarket.com,Business and Finance,False
+Hype Profit,hypeprofit.net,Business and Finance,False
+Fake Trade,faketrade.info,,False
+Rumor Wealth,rumorwealth.org,Business and Finance,False
+Spin Market,spinmarket.com,Business and Finance,False
+Hoax Profit,hoaxprofit.net,Business and Finance,False
+Eco Lie,ecolie.com,Environment and Climate,False
+Green Hoax,greenhoax.net,Environment and Climate,False
+False Eco,falseeco.info,,False
+Myth Planet,mythplanet.org,Environment and Climate,False
+Scam Green,scamgreen.com,Environment and Climate,False
+Hype Eco,hypeeco.net,Environment and Climate,False
+Fake Planet,fakeplanet.info,,False
+Rumor Green,rumorgreen.org,Environment and Climate,False
+Spin Eco,spineco.com,Environment and Climate,False
+Hoax Planet,hoaxplanet.net,Environment and Climate,False
+BBC News,bbc.com,General News,True
+Reuters,reuters.com,General News,True
+Associated Press,apnews.com,General News,True
+The New York Times,nytimes.com,General News,True
+The Guardian,theguardian.com,General News,True
+Al Jazeera,aljazeera.com,General News,True
+NPR,npr.org,General News,True
+DW News,dw.com,General News,True
+Nature,nature.com,Science and Technology,True
+Science Magazine,sciencemag.org,Science and Technology,True
+Scientific American,scientificamerican.com,Science and Technology,True
+MIT Technology Review,technologyreview.com,Science and Technology,True
+Wired,wired.com,Science and Technology,True
+Ars Technica,arstechnica.com,Science and Technology,True
+The Verge,theverge.com,Science and Technology,True
+The Wall Street Journal,wsj.com,Business and Finance,True
+Bloomberg,bloomberg.com,Business and Finance,True
+Financial Times,ft.com,Business and Finance,True
+CNBC,cnbc.com,Business and Finance,True
+Forbes,forbes.com,Business and Finance,True
+The Economist,economist.com,Business and Finance,True
+World Health Organization,who.int,Health and Medicine,True
+Centers for Disease Control and Prevention,cdc.gov,Health and Medicine,True
+Mayo Clinic,mayoclinic.org,Health and Medicine,True
+WebMD,webmd.com,Health and Medicine,True
+Healthline,healthline.com,Health and Medicine,True
+Medical News Today,medicalnewstoday.com,Health and Medicine,True
+Politico,politico.com,Politics and International Affairs,True
+Foreign Policy,foreignpolicy.com,Politics and International Affairs,True
+The Hill,thehill.com,Politics and International Affairs,True
+The Washington Post,washingtonpost.com,Politics and International Affairs,True
+The Diplomat,thediplomat.com,Politics and International Affairs,True
+National Geographic,nationalgeographic.com,Environment and Climate,True
+Grist,grist.org,Environment and Climate,True
+Inside Climate News,insideclimatenews.org,Environment and Climate,True
+Carbon Brief,carbonbrief.org,Environment and Climate,True
+Mongabay,mongabay.com,Environment and Climate,True
+Inside Higher Ed,insidehighered.com,Education,True
+The Chronicle of Higher Education,chronicle.com,Education,True
+EdSurge,edsurge.com,Education,True
+Times Higher Education,timeshighereducation.com,Education,True
+Variety,variety.com,Entertainment and Culture,True
+The Hollywood Reporter,hollywoodreporter.com,Entertainment and Culture,True
+Rolling Stone,rollingstone.com,Entertainment and Culture,True
+Pitchfork,pitchfork.com,Entertainment and Culture,True
+Snopes,snopes.com,Fact-Checking,True
+FactCheck.org,factcheck.org,Fact-Checking,True
+PolitiFact,politifact.com,Fact-Checking,True
+The Poynter Institute,poynter.org,Fact-Checking,True
+AFP Fact Check,factcheck.afp.com,Fact-Checking,True
+CNN,cnn.com,Regional (US),True
+USA Today,usatoday.com,Regional (US),True
+Los Angeles Times,latimes.com,Regional (US),True
+Le Monde,lemonde.fr,Regional (Europe),True
+Der Spiegel,spiegel.de,Regional (Europe),True
+El País,elpais.com,Regional (Europe),True
+The Straits Times,straitstimes.com,Regional (Asia),True
+The Japan Times,japantimes.co.jp,Regional (Asia),True
+South China Morning Post,scmp.com,Regional (Asia),True
+Daily Nation,nation.co.ke,Regional (Africa),True
+Mail & Guardian,mg.co.za,Regional (Africa),True
+source,domain,field,True
+The Onion,theonion.com,Entertainment and Culture,False
+Infowars,infowars.com,General News,False
+Breitbart News,breitbart.com,Politics and International Affairs,False
+Natural News,naturalnews.com,Health and Medicine,False
+RT,rt.com,General News,False
+Global Research,globalresearch.ca,Politics and International Affairs,False
+NewsPunch,newspunch.com,General News,False
+The Daily Stormer,dailystormer.name,Politics and International Affairs,False
+ClickHole,clickhole.com,Entertainment and Culture,False
+World Truth TV,worldtruth.tv,General News,False
+Epoch Times,theepochtimes.com,General News,False
+Before It’s News,beforeitsnews.com,General News,False
+The Babylon Bee,babylonbee.com,Entertainment and Culture,False
+Zero Hedge,zerohedge.com,Business and Finance,False
+QAnon News,qanon.news,Politics and International Affairs,False
+The Sun,thesun.co.uk,General News,True
+The Times of India,timesofindia.indiatimes.com,Regional (Asia),True
+Asahi Shimbun,asahi.com,Regional (Asia),True
+Sydney Morning Herald,smh.com.au,Regional (Oceania),True
+The Globe and Mail,theglobeandmail.com,Regional (North America),True
+Haaretz,haaretz.com,Regional (Middle East),True
+The Independent,independent.co.uk,General News,True
+New Scientist,newscientist.com,Science and Technology,True
+IEEE Spectrum,spectrum.ieee.org,Science and Technology,True
+The Lancet,thelancet.com,Health and Medicine,True
+EcoWatch,ecowatch.com,Environment and Climate,True
+Education Week,edweek.org,Education,True
+TMZ,tmz.com,Entertainment and Culture,True
+YourNewsWire,yournewswire.com,General News,False
+Truth Examiner,truthexaminer.com,General News,False
+Conspiracy Daily,conspiracy-daily.com,General News,False
+Health Impact News,healthimpactnews.com,Health and Medicine,False
+Climate Hoax Weekly,climatehoaxweekly.org,Environment and Climate,False
+The Fake Times,thefaketimes.net,General News,False
+Viral Liberty,viralliberty.com,Politics and International Affairs,False
+Prime News,primenews.org,General News,True
+Global Dispatch,globaldispatch.com,General News,True
+Unity Times,unitytimes.net,General News,True
+World Pulse,worldpulse.org,General News,True
+Clear Report,clearreport.info,General News,True
+Daily Insight,dailyinsight.com,General News,True
+Truth Press,truthpress.org,General News,True
+Nova News,novanews.net,General News,True
+Core Times,coretimes.com,General News,True
+Bright News,brightnews.org,General News,True
+Focus Post,focuspost.info,General News,True
+Echo Times,echotimes.net,General News,True
+Globe Watch,globewatch.com,General News,True
+Star Report,starreport.org,General News,True
+Open News,opennews.info,General News,True
+True Herald,trueherald.com,General News,True
+Civic Times,civictimes.net,General News,True
+Hope Press,hopepress.org,General News,True
+Light News,lightnews.com,General News,True
+Vision Post,visionpost.info,General News,True
+Summit News,summitnews.net,General News,True
+Beacon Post,beaconpost.com,General News,True
+Rise Times,risetimes.org,General News,True
+Pure News,purenews.info,General News,True
+Bold Press,boldpress.com,General News,True
+Clarity Post,claritypost.net,General News,True
+Unity Post,unitypost.org,General News,True
+Global Beat,globalbeat.com,General News,True
+Insight Times,insighttimes.info,General News,True
+Truth Beacon,truthbeacon.net,General News,True
+World Insight,worldinsight.com,General News,True
+Daily Pulse,dailypulse.org,General News,True
+Core News,corenews.info,General News,True
+Bright Press,brightpress.com,General News,True
+Open Times,opentimes.net,General News,True
+Star News,starnews.org,General News,True
+Clear Times,cleartimes.com,General News,True
+Hope News,hopenews.info,General News,True
+Vision News,visionnews.net,General News,True
+Advance Post,advancepost.com,General News,True
+Tech Pulse,techpulse.org,Science and Technology,True
+Future Tech,futuretech.com,Science and Technology,True
+Inno Journal,innojournal.net,Science and Technology,True
+Science Post,sciencepost.info,Science and Technology,True
+Tech Beacon,techbeacon.com,Science and Technology,True
+Digital Times,digitaltimes.org,Science and Technology,True
+Nova Tech,novatech.net,Science and Technology,True
+Bright Tech,brighttech.info,Science and Technology,True
+Core Science,corescience.com,Science and Technology,True
+Insight Tech,insighttech.org,Science and Technology,True
+Open Science,openscience.info,Science and Technology,True
+Star Tech,startech.com,Science and Technology,True
+Clear Tech,cleartech.org,Science and Technology,True
+Vision Tech,visiontech.info,Science and Technology,True
+Pure Tech,puretech.org,Science and Technology,True
+Clarity Tech,claritytech.info,Science and Technology,True
+Global Tech,globaltech.org,Science and Technology,True
+Rise Tech,risetech.info,Science and Technology,True
+Beacon Tech,beacontech.org,Science and Technology,True
+Focus Tech,focustech.info,Science and Technology,True
+Echo Tech,echotech.com,Science and Technology,True
+Globe Tech,globetech.org,Science and Technology,True
+Trade Times,tradetimes.com,Business and Finance,True
+Wealth Post,wealthpost.org,Business and Finance,True
+Market News,marketnews.info,Business and Finance,True
+Finance Pulse,financepulse.net,Business and Finance,True
+Core Business,corebusiness.com,Business and Finance,True
+Insight Finance,insightfinance.org,Business and Finance,True
+True Market,truemarket.net,Business and Finance,True
+Open Trade,opentrade.info,Business and Finance,True
+Star Finance,starfinance.com,Business and Finance,True
+Clear Market,clearmarket.org,Business and Finance,True
+Hope Finance,hopefinance.net,Business and Finance,True
+Vision Trade,visiontrade.info,Business and Finance,True
+Advance Market,advancemarket.com,Business and Finance,True
+Pure Finance,purefinance.org,Business and Finance,True
+Bold Market,boldmarket.net,Business and Finance,True
+Clarity Finance,clarityfinance.info,Business and Finance,True
+Unity Business,unitybusiness.com,Business and Finance,True
+Global Trade,globaltrade.org,Business and Finance,True
+Daily Finance,dailyfinance.net,Business and Finance,True
+Rise Market,risemarket.info,Business and Finance,True
+Care Post,carepost.com,Health and Medicine,True
+Well Times,welltimes.org,Health and Medicine,True
+Health News,healthnews.info,Health and Medicine,True
+Med Pulse,medpulse.net,Health and Medicine,True
+Core Health,corehealth.com,Health and Medicine,True
+Insight Med,insightmed.org,Health and Medicine,True
+True Care,truecare.net,Health and Medicine,True
+Open Health,openhealth.info,Health and Medicine,True
+Star Med,starmed.com,Health and Medicine,True
+Clear Health,clearhealth.org,Health and Medicine,True
+Hope Med,hopemed.net,Health and Medicine,True
+Vision Health,visionhealth.info,Health and Medicine,True
+Advance Care,advancecare.com,Health and Medicine,True
+Pure Health,purehealth.org,Health and Medicine,True
+Bold Med,boldmed.net,Health and Medicine,True
+Clarity Health,clarityhealth.info,Health and Medicine,True
+Unity Care,unitycare.com,Health and Medicine,True
+Global Health,globalhealth.org,Health and Medicine,True
+Daily Med,dailymed.net,Health and Medicine,True
+Rise Health,risehealth.info,Health and Medicine,True
+State News,statenews.com,Politics and International Affairs,True
+Policy Post,policypost.org,Politics and International Affairs,True
+Civic Pulse,civicpulse.net,Politics and International Affairs,True
+Core Affairs,coreaffairs.com,Politics and International Affairs,True
+Insight Policy,insightpolicy.org,Politics and International Affairs,True
+True State,truestate.net,Politics and International Affairs,True
+Open Policy,openpolicy.info,Politics and International Affairs,True
+Star Affairs,staraffairs.com,Politics and International Affairs,True
+Clear Policy,clearpolicy.org,Politics and International Affairs,True
+Hope State,hopestate.net,Politics and International Affairs,True
+Vision Policy,visionpolicy.info,Politics and International Affairs,True
+Advance Affairs,advanceaffairs.com,Politics and International Affairs,True
+Pure Policy,purepolicy.org,Politics and International Affairs,True
+Bold State,boldstate.net,Politics and International Affairs,True
+Clarity Policy,claritypolicy.info,Politics and International Affairs,True
+Unity Affairs,unityaffairs.com,Politics and International Affairs,True
+Global State,globalstate.org,Politics and International Affairs,True
+Daily Policy,dailypolicy.net,Politics and International Affairs,True
+Rise Affairs,riseaffairs.info,Politics and International Affairs,True
+Green News,greennews.com,Environment and Climate,True
+Eco Post,ecopost.org,Environment and Climate,True
+Planet Pulse,planetpulse.info,Environment and Climate,True
+Earth News,earthnews.net,Environment and Climate,True
+Core Eco,coreeco.com,Environment and Climate,True
+Insight Green,insightgreen.org,Environment and Climate,True
+True Earth,trueearth.net,Environment and Climate,True
+Open Eco,openeco.info,Environment and Climate,True
+Star Green,stargreen.com,Environment and Climate,True
+Clear Eco,cleareco.org,Environment and Climate,True
+Hope Earth,hopeearth.net,Environment and Climate,True
+Vision Green,visiongreen.info,Environment and Climate,True
+Advance Eco,advanceeco.com,Environment and Climate,True
+Pure Green,puregreen.org,Environment and Climate,True
+Bold Eco,boldeco.net,Environment and Climate,True
+Clarity Green,claritygreen.info,Environment and Climate,True
+Unity Eco,unityeco.com,Environment and Climate,True
+Global Green,globalgreen.org,Environment and Climate,True
+Daily Eco,dailyeco.net,Environment and Climate,True
+Rise Green,risegreen.info,Environment and Climate,True
+Learn News,learnnews.com,Education,True
+Edu Post,edupost.org,Education,True
+School News,schoolnews.info,Education,True
+Academic Pulse,academicpulse.net,Education,True
+Core Edu,coreedu.com,Education,True
+Insight Learn,insightlearn.org,Education,True
+True School,trueschool.net,Education,True
+Open Edu,openedu.info,Education,True
+Star Learn,starlearn.com,Education,True
+Clear Edu,clearedu.org,Education,True
+Hope School,hopeschool.net,Education,True
+Vision Edu,visionedu.info,Education,True
+Advance Learn,advancelearn.com,Education,True
+Pure Edu,pureedu.org,Education,True
+Bold School,boldschool.net,Education,True
+Clarity Edu,clarityedu.info,Education,True
+Arts News,artsnews.com,Entertainment and Culture,True
+Culture Post,culturepost.org,Entertainment and Culture,True
+Pop News,popnews.info,Entertainment and Culture,True
+Trend Pulse,trendpulse.net,Entertainment and Culture,True
+Core Arts,corearts.com,Entertainment and Culture,True
+Insight Culture,insightculture.org,Entertainment and Culture,True
+True Pop,truepop.net,Entertainment and Culture,True
+Open Arts,openarts.info,Entertainment and Culture,True
+Star Culture,starculture.com,Entertainment and Culture,True
+Clear Arts,cleararts.org,Entertainment and Culture,True
+Hope Pop,hopepop.net,Entertainment and Culture,True
+Advance Arts,advancearts.com,Entertainment and Culture,True
+Pure Culture,pureculture.org,Entertainment and Culture,True
+Bold Arts,boldarts.net,Entertainment and Culture,True
+Verify News,verifynews.com,Fact-Checking,True
+Fact Pulse,factpulse.org,Fact-Checking,True
+Truth News,truthnews.info,Fact-Checking,True
+Check Post,checkpost.net,Fact-Checking,True
+Core Fact,corefact.com,Fact-Checking,True
+Insight Check,insightcheck.org,Fact-Checking,True
+True Verify,trueverify.net,Fact-Checking,True
+Open Fact,openfact.info,Fact-Checking,True
+Star Check,starcheck.com,Fact-Checking,True
+Clear Fact,clearfact.org,Fact-Checking,True
+Asia News,asianews.net,Regional (Asia),True
+Europe Post,europepost.com,Regional (Europe),True
+Africa News,africanews.org,Regional (Africa),True
+Oceania Times,oceaniatimes.info,Regional (Oceania),True
+Americas News,americasnews.net,Regional (North America),True
+Middle East Post,middleeastpost.com,Regional (Middle East),True
+Latin Times,latintimes.org,Regional (Latin America),True
+Pacific News,pacificnews.info,Regional (Oceania),True
+Globe Hoax,globehoax.com,General News,False
+Fake Pulse,fakepulse.net,General News,False
+Myth Post,mythpost.info,,False
+Lie News,lienews.org,General News,False
+Hype Scoop,hypescoop.net,General News,False
+False Report,falsereport.info,,False
+Rumor News,rumornews.org,General News,False
+Hoax Post,hoaxpost.net,General News,False
+Gossip Leak,gossipleak.info,,False
+Wild Scoop,wildscoop.org,General News,False
+Fake Flash,fakeflash.com,General News,False
+Myth Leak,mythleak.net,General News,False
+Lie Scoop,liescoop.info,,False
+Scam Pulse,scampulse.org,General News,False
+Hype Post,hypepost.com,General News,False
+False Scoop,falsescoop.net,General News,False
+Rumor Leak,rumorleak.info,,False
+Spin Scoop,spinscoop.org,General News,False
+Hoax News,hoaxnews.com,General News,False
+Gossip Scoop,gossipscoop.net,General News,False
+Wild Post,wildpost.info,,False
+Fake Leak,fakeleak.org,General News,False
+Myth Scoop,mythscoop.com,General News,False
+Lie Post,liespost.net,General News,False
+Scam Leak,scamleak.info,,False
+Hype News,hypenews.org,General News,False
+False Post,falsepost.com,General News,False
+Rumor Scoop,rumorscoop.net,General News,False
+Spin Leak,spinleak.info,,False
+Hoax Scoop,hoaxscoop.org,General News,False
+Gossip Post,gossippost.com,General News,False
+Wild Leak,wildleak.net,General News,False
+Fake Scoop,fakescoop.info,,False
+Lie Leak,lieleak.com,General News,False
+Scam Scoop,scamscoop.net,General News,False
+Hype Leak,hypeleak.info,,False
+False Leak,falseleak.org,General News,False
+Rumor Post,rumorpost.com,General News,False
+Spin Post,spinpost.net,General News,False
+Hoax Leak,hoaxleak.info,,False
+Fake Post,fakepost.net,General News,False
+Scam Post,scampost.com,General News,False
+Plot Post,plotpost.com,Politics and International Affairs,False
+Conspiracy Scoop,conspiracyscoop.net,Politics and International Affairs,False
+False State,falsestate.info,,False
+Joke Post,jokepost.com,Entertainment and Culture,False
+Satire News,satirenews.net,Entertainment and Culture,False
+Gag Scoop,gagscoop.info,,False
+Mock News,mocknews.org,Entertainment and Culture,False
+Parody Leak,parodyleak.com,Entertainment and Culture,False
+Fun Post,funpost.net,Entertainment and Culture,False
+Spoof Scoop,spoofscoop.org,Entertainment and Culture,False
+Wit News,witnews.com,Entertainment and Culture,False
+Laugh Post,laughpost.net,Entertainment and Culture,False
+Gossip Pop,gossippop.info,,False
+Cure Hoax,curehoax.com,Health and Medicine,False
+Health Lie,healthlie.net,Health and Medicine,False
+Myth Med,mythmed.info,,False
+Hype Med,hypemed.net,Health and Medicine,False
+Fake Cure,fakecure.info,,False
+Rumor Health,rumorhealth.org,Health and Medicine,False
+Spin Care,spincare.com,Health and Medicine,False
+Hoax Wellness,hoaxwellness.net,Health and Medicine,False
+Gossip Med,gossipmed.info,,False
+Wild Cure,wildcure.org,Health and Medicine,False
+Fake Wellness,fakewellness.com,Health and Medicine,False
+Myth Care,mythcare.net,Health and Medicine,False
+Lie Health,liehealth.info,,False
+Scam Med,scammed.org,Health and Medicine,False
+Hype Care,hypecare.com,Health and Medicine,False
+False Med,falsemed.net,Health and Medicine,False
+Wealth Hoax,wealthhoax.net,Business and Finance,False
+Myth Trade,mythtrade.info,,False
+Scam Market,scammarket.org,Business and Finance,False
+False Profit,falseprofit.com,Business and Finance,False
+Hype Trade,hypetrade.net,Business and Finance,False
+Fake Wealth,fakewealth.info,,False
+Rumor Market,rumormarket.org,Business and Finance,False
+Spin Profit,spinprofit.com,Business and Finance,False
+Hoax Trade,hoaxtrade.net,Business and Finance,False
+Green Lie,greenlie.com,Environment and Climate,False
+Eco Hoax,ecohoax.net,Environment and Climate,False
+False Planet,falseplanet.info,,False
+Myth Green,mythgreen.org,Environment and Climate,False
+Scam Eco,scameco.com,Environment and Climate,False
+Hype Planet,hypeplanet.net,Environment and Climate,False
+Fake Green,fakegreen.info,,False
+Rumor Eco,rumoreco.org,Environment and Climate,False
+Spin Planet,spinplanet.com,Environment and Climate,False
+Hoax Green,hoaxgreen.net,Environment and Climate,False
+Myth Beacon,mythbeacon.com,General News,False
+Scam Chronicle,scamchronicle.net,General News,False
+Hype Dispatch,hypedispatch.info,,False
+False Wave,falsewave.org,General News,False
+Rumor Blitz,rumorblitz.com,General News,False
+Spin Vortex,spinvortex.net,General News,False
+Hoax Flash,hoaxflash.info,,False
+Gossip Surge,gossipsurge.org,General News,False
+Wild Claim,wildclaim.com,General News,False
+Fake Surge,fakesurge.net,General News,False
+Lie Beacon,liebeacon.info,,False
+Myth Surge,mythsurge.org,General News,False
+Scam Wave,scamwave.com,General News,False
+Hype Blitz,hypeblitz.net,General News,False
+False Flash,falseflash.info,,False
+Rumor Wave,rumorwave.org,General News,False
+Spin Flash,spinflash.com,General News,False
+Hoax Surge,hoaxsurge.net,General News,False
+Gossip Flash,gossipflash.info,,False
+Wild Surge,wildsurge.org,General News,False
+Fake Blitz,fakeblitz.com,General News,False
+Myth Flash,mythflash.net,General News,False
+Lie Surge,liesurge.info,,False
+Scam Flash,scamflash.org,General News,False
+Hype Surge,hypesurge.com,General News,False
+False Surge,falsesurge.net,General News,False
+Rumor Flash,rumorflash.info,,False
+Spin Surge,spinsurge.org,General News,False
+Hoax Blitz,hoaxblitz.com,General News,False
+Wild Flash,wildflash.info,,False
+Lie Flash,lieflash.net,General News,False
+Scam Surge,scam-surge.info,,False
+Hype Flash,hype-flash.org,General News,False
+False Blitz,false-blitz.com,General News,False
+Rumor Surge,rumor-surge.net,General News,False
+Spin Blitz,spin-blitz.info,,False
+Hoax Flash,hoax-flash.org,General News,False
+Gossip Blitz,gossip-blitz.com,General News,False
+Fake Surge,fake-surge.info,,False
+Myth Blitz,myth-blitz.org,General News,False
+Lie Surge,lie-surge.com,General News,False
+Scam Blitz,scam-blitz.net,General News,False
+Hype Surge,hype-surge.info,,False
+Hoax Surge,hoax-surge.info,,False
+Gossip Flash,gossip-flash.org,General News,False
+Wild Blitz,wild-blitz.com,General News,False
+Myth Surge,mythsurge.info,,False
+Lie Blitz,lie-blitz.org,General News,False
+Gossip Surge,gossipsurge.info,,False
+Wild Flash,wild-flash.org,General News,False
+Myth Flash,mythflash.info,,False
+Scam Surge,scamsurge.com,General News,False
+False Surge,falsesurge.info,,False
+Rumor Flash,rumorflash.org,General News,False
+Gossip Blitz,gossipblitz.info,,False
+False Blitz,falseblitz.info,,False
+Spin Blitz,spinblitz.com,General News,False
+Wild Blitz,wildblitz.info,,False
+Scam Flash,scamflash.info,,False
+False Flash,falseflash.net,General News,False
+Rumor Blitz,rumorblitz.info,,False
+Plot Beacon,plotbeacon.com,Politics and International Affairs,False
+Conspiracy Wave,conspiracywave.net,Politics and International Affairs,False
+False Regime,falseregime.info,,False
+Lie Plot,lieplot.org,Politics and International Affairs,False
+Scam Regime,scamregime.com,Politics and International Affairs,False
+Hype Plot,hypeplot.net,Politics and International Affairs,False
+Fake Regime,fakeregime.info,,False
+Myth Plot,mythplot.org,Politics and International Affairs,False
+Rumor Regime,rumorregime.com	False,,
+Spin Plot,spinplot.com,Politics and International Affairs,False
+Hoax Regime,hoaxregime.net,Politics and International Affairs,False
+Gossip Plot,gossipplot.info,,False
+Wild Regime,wildregime.org,Politics and International Affairs,False
+Fake Plot,fakeplot.com,Politics and International Affairs,False
+Myth Regime,mythregime.net,Politics and International Affairs,False
+Lie Plot,lie-plot.info,,False
+Scam Plot,scamplot.org,Politics and International Affairs,False
+Hype Regime,hyperegime.com,Politics and International Affairs,False
+False Plot,falseplot.net,Politics and International Affairs,False
+Rumor Plot,rumorplot.info,,False
+Spin Regime,spinregime.org,Politics and International Affairs,False
+Hoax Plot,hoaxplot.com,Politics and International Affairs,False
+Gossip Regime,gossipregime.net,Politics and International Affairs,False
+Wild Plot,wildplot.info,,False
+Fake Regime,fake-regime.org,Politics and International Affairs,False
+Lie Regime,lie-regime.net,Politics and International Affairs,False
+Scam Regime,scam-regime.info,,False
+False Regime,false-regime.com,Politics and International Affairs,False
+Rumor Regime,rumor-regime.net,Politics and International Affairs,False
+Spin Plot,spin-plot.info,,False
+Gossip Plot,gossip-plot.com,Politics and International Affairs,False
+Fake Plot,fake-plot.info,,False
+Satire Wave,satirewave.com,Entertainment and Culture,False
+Gag Chronicle,gagchronicle.net,Entertainment and Culture,False
+Mock Flash,mockflash.info,,False
+Parody Surge,parodysurge.org,Entertainment and Culture,False
+Fun Blitz,funblitz.com,Entertainment and Culture,False
+Hoax Jest,hoaxjest.net,Entertainment and Culture,False
+Spoof Flash,spoofflash.info,,False
+Wit Surge,witsurge.org,Entertainment and Culture,False
+Laugh Blitz,laughblitz.com,Entertainment and Culture,False
+Fake Jest,fakejest.net,Entertainment and Culture,False
+Myth Jest,mythjest.info,,False
+Lie Satire,liesatire.org,Entertainment and Culture,False
+Scam Jest,scamjest.com,Entertainment and Culture,False
+Hype Sat18:37:23 -0600Hype Satire,hypesatire.net,Entertainment and Culture,False
+False Jest,falsejest.org,Entertainment and Culture,False
+Rumor Satire,rumorsatire.com,Entertainment and Culture,False
+Spin Jest,spinjest.net,Entertainment and Culture,False
+Hoax Satire,hoaxsatire.info,,False
+Gossip Jest,gossipjest.org,Entertainment and Culture,False
+Wild Satire,wildsatire.com,Entertainment and Culture,False
+Fake Satire,fake-satire.net,Entertainment and Culture,False
+Myth Satire,myth-satire.info,,False
+Lie Jest,lie-jest.org,Entertainment and Culture,False
+Scam Satire,scam-satire.com,Entertainment and Culture,False
+Hype Jest,hype-jest.net,Entertainment and Culture,False
+False Satire,false-satire.info,,False
+Rumor Jest,rumor-jest.org,Entertainment and Culture,False
+Spin Satire,spin-satire.com,Entertainment and Culture,False
+Gossip Satire,gossip-satire.info,,False
+Wild Jest,wildjest.org,Entertainment and Culture,False
+Myth Jest,myth-jest.net,Entertainment and Culture,False
+Lie Satire,lie-satire.info,,False
+Hype Satire,hype-satire.com,Entertainment and Culture,False
+False Satire,false-satire.net,Entertainment and Culture,False
+Health Flash,healthflash.com,Health and Medicine,False
+Care Surge,caresurge.net,Health and Medicine,False
+Myth Cure,mythcure.info,,False
+Scam Wellness,scamwellness.org,Health and Medicine,False
+False Cure,falsecure.com,Health and Medicine,False
+Hype Wellness,hypewellness.info,,False
+Rumor Cure,rumorcure.com,Health and Medicine,False
+Hoax Cure,hoaxcure.info,,False
+Gossip Cure,gossipcure.org,Health and Medicine,False
+Market Surge,marketsurge.com,Business and Finance,False
+Profit Flash,profitflash.net,Business and Finance,False
+Myth Profit,mythprofit.info,,False
+Eco Blitz,ecoblitz.com,Environment and Climate,False
+Green Surge,greensurge.net,Environment and Climate,False
+Myth Eco,mytheco.info,,False
+False Pulse,falsepulse.com,General News,False
+Hoax Pulse,hoaxpulse.net,General News,False
+Scam Herald,scam-herald.info,,False
+Myth Pulse,mythpulse.org,General News,False
+Lie Wave,liewave.com,General News,False
+Rumor Pulse,rumorpulse.net,General News,False
+Spin Herald,spin-herald.info,,False
+Gossip Pulse,gossippulse.org,General News,False
+Wild Pulse,wildpulse.com,General News,False
+Fake Herald,fake-herald.net,General News,False
+False Herald,false-herald.info,,False
+Hoax Wave,hoaxwave.org,General News,False
+Scam Pulse,scampulse.com,General News,False
+Myth Wave,mythwave.net,General News,False
+Lie Pulse,liepulse.info,,False
+Rumor Herald,rumor-herald.org,General News,False
+Spin Pulse,spinpulse.com,General News,False
+Gossip Wave,gossipwave.net,General News,False
+Wild Herald,wild-herald.org,General News,False
+Fake Pulse,fakepulse.info,,False
+False Wave,false-wave.com,General News,False
+Hoax Herald,hoax-herald.net,General News,False
+Scam Wave,scam-wave.info,,False
+Myth Herald,myth-herald.com,General News,False
+Lie Herald,lie-herald.net,General News,False
+Rumor Wave,rumor-wave.info,,False
+Spin Wave,spin-wave.org,General News,False
+Gossip Herald,gossip-herald.net,General News,False
+Wild Wave,wild-wave.com,General News,False
+Fake Wave,fake-wave.net,General News,False
+False Surge,falsesurge.com,General News,False
+Hoax Surge,hoaxsurge.org,General News,False
+Scam Surge,scamsurge.info,,False
+Myth Surge,mythsurge.net,General News,False
+Lie Surge,liesurge.com,General News,False
+Rumor Surge,rumorsurge.info,,False
+Spin Surge,spinsurge.net,General News,False
+Wild Surge,wildsurge.info,,False
+Fake Surge,fakesurge.com,General News,False
+False Blitz,falseblitz.net,General News,False
+Hoax Blitz,hoaxblitz.info,,False
+Scam Blitz,scamblitz.org,General News,False
+Myth Blitz,mythblitz.com,General News,False
+Lie Blitz,lieblitz.net,General News,False
+Rumor Blitz,rumorblitz.org,General News,False
+Spin Blitz,spinblitz.info,,False
+Gossip Blitz,gossipblitz.net,General News,False
+Wild Blitz,wildblitz.org,General News,False
+Fake Blitz,fakeblitz.info,,False
+Plot Pulse,plotpulse.com,Politics and International Affairs,False
+Conspiracy Herald,conspiracy-herald.net,Politics and International Affairs,False
+False State,falsestate.org,,False
+Lie Regime,lieregime.info,,False
+Scam State,scamstate.net,Politics and International Affairs,False
+Fake State,fakestate.com,Politics and International Affairs,False
+Myth State,mythstate.net,Politics and International Affairs,False
+Rumor State,rumorstate.info,,False
+Spin State,spinstate.org,Politics and International Affairs,False
+Hoax State,hoaxstate.com,Politics and International Affairs,False
+Wild State,wildstate.org,Politics and International Affairs,False
+Fake Regime,fakeregime.net,Politics and International Affairs,False
+False Regime,falseregime.com,Politics and International Affairs,False
+Hoax Regime,hoaxregime.info,,False
+Scam Regime,scamregime.org,Politics and International Affairs,False
+Myth Regime,mythregime.com,Politics and International Affairs,False
+Lie State,liestate.net,Politics and International Affairs,False
+Rumor Regime,rumorregime.org,Politics and International Affairs,False
+Satire Pulse,satirepulse.com,Entertainment and Culture,False
+Gag Pulse,gagpulse.net,Entertainment and Culture,False
+Mock Herald,mockherald.info,,False
+Parody Wave,parodywave.org,Entertainment and Culture,False
+Fun Surge,funsurge.com,Entertainment and Culture,False
+Spoof Pulse,spoofpulse.info,,False
+Wit Wave,witwave.org,Entertainment and Culture,False
+Laugh Surge,laughsurge.com,Entertainment and Culture,False
+Fake Jest,fakejest.org,Entertainment and Culture,False
+Myth Jest,mythjest.net,Entertainment and Culture,False
+Lie Satire,liesatire.com,Entertainment and Culture,False
+Scam Jest,scamjest.net,Entertainment and Culture,False
+Hype Satire,hypesatire.org,Entertainment and Culture,False
+False Jest,falsejest.com,Entertainment and Culture,False
+Rumor Satire,rumorsatire.net,Entertainment and Culture,False
+Spin Jest,spinjest.org,Entertainment and Culture,False
+Hoax Satire,hoaxsatire.com,Entertainment and Culture,False
+Gossip Jest,gossipjest.net,Entertainment and Culture,False
+Wild Satire,wildsatire.org,Entertainment and Culture,False
+Health Surge,healthsurge.com,Health and Medicine,False
+Care Blitz,careblitz.net,Health and Medicine,False
+Myth Wellness,mythwellness.org,,False
+Scam Cure,scamcure.info,,False
+False Wellness,falsewellness.com,Health and Medicine,False
+Hype Cure,hypecure.net,Health and Medicine,False
+Market Blitz,marketblitz.com,Business and Finance,False
+Profit Surge,profitsurge.net,Business and Finance,False
+Eco Surge,ecosurge.com,Environment and Climate,False
+Green Blitz,greenblitz.net,Environment and Climate,False
+Global Herald,globalherald.com,General News,True
+Unity Dispatch,unitydispatch.org,General News,True
+World Beacon,worldbeacon.net,General News,True
+Clear Scope,clearscope.info,General News,True
+Daily Herald,dailyherald.com,General News,True
+Nova Dispatch,novadispatch.net,General News,True
+Bright Beacon,brightbeacon.info,General News,True
+Tech Herald,techherald.com,Science and Technology,True
+Future Scope,futurescope.org,Science and Technology,True
+Inno Dispatch,innodispatch.net,Science and Technology,True
+Science Beacon,sciencebeacon.info,Science and Technology,True
+Market Scope,marketscope.com,Business and Finance,True
+Finance Herald,financeherald.org,Business and Finance,True
+Trade Beacon,tradebeacon.net,Business and Finance,True
+Health Scope,healthscope.com,Health and Medicine,True
+Care Dispatch,caredispatch.org,Health and Medicine,True
+Policy Scope,policyscope.com,Politics and International Affairs,True
+Eco Dispatch,ecodispatch.org,Environment and Climate,True
+Edu Beacon,edubeacon.com,Education,True
