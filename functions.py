@@ -8,8 +8,9 @@ from transformers import BertTokenizer, BertForSequenceClassification
 import torch
 from pydantic import BaseModel
 import os
-tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
-bert_model = BertForSequenceClassification.from_pretrained("/Users/mohamedzabady/myenv/UNIV/git/Fake_News_detection/checkpoint-500")
+tokenizer = BertTokenizer.from_pretrained("mohamedzabady/bert-fake-news")
+bert_model = BertForSequenceClassification.from_pretrained("mohamedzabady/bert-fake-news")
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 bert_model.to(device)
 bert_model.eval()
