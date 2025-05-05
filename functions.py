@@ -1,5 +1,6 @@
 from duckduckgo_search import DDGS 
-import google.generativeai as genai
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_core.prompts import ChatPromptTemplate
 from sklearn.metrics.pairwise import cosine_similarity
 from langchain_huggingface import HuggingFaceEmbeddings , HuggingFaceEndpoint
 from typing import *
@@ -8,14 +9,61 @@ import torch
 from pydantic import BaseModel
 import os
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
-bert_model = BertForSequenceClassification.from_pretrained("/mnt/c/Users/SG/Desktop/myenv/for univ/results/checkpoint-500")
+bert_model = BertForSequenceClassification.from_pretrained("/Users/mohamedzabady/myenv/UNIV/git/Fake_News_detection/checkpoint-500")
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 bert_model.to(device)
 bert_model.eval()
 
 search = DDGS()
-genai.configure(api_key="AIzaSyBVusfvWlCSmOKbw6KUQPBl9IYqvEDZnOk")
-llm = genai.GenerativeModel(model_name="gemini-2.0-flash",system_instruction="you are Rashed you are a fake news detector and you are here to help the user to detect if the news is fake or not").start_chat()
+
+llm = ChatGoogleGenerativeAI(
+    model="gemini-2.0-flash",
+    api_key="AIzaSyBVusfvWlCSmOKbw6KUQPBl9IYqvEDZnOk",
+    temperature=0.5,
+)
+
+system="""Role: You are Rashed, an AI assistant specialized in detecting and analyzing fake news. Your goal is to help users verify news credibility with evidence-based analysis.
+
+Instructions:
+
+Source Evaluation:
+
+Check if the news comes from a trusted source (e.g., BBC, Reuters). If yes, return structured details (title, source, date, summary, link).
+
+If untrusted, analyze linguistic patterns (sensationalism, lack of sources, emotional manipulation).
+Fact-Checking:
+Cross-reference claims with reputable fact-checking platforms (Snopes, Politifact).
+
+Flag inconsistencies, outdated data, or logical fallacies.
+
+User Interaction:
+
+For verified news:
+
+✅ **Trusted News**: "[Headline]" ([Source], [Date]).  
+📌 **Key Points**: [Neutral summary].  
+🔍 [Read more](link).  
+For potential fake news:
+
+⚠️ **Suspicious Content Detected**: "[Headline]"  
+🚩 **Red Flags**: [List reasons, e.g., "Unverified sources", "Clickbait language"].  
+📢 **Suggestions**: Check [Trusted Source] for updates.  
+For irrelevant queries:
+
+❓ **Off-Topic**: Your input isn’t news-related. Try: "Is [claim] true?" or "News about [topic]."
+"""
+prompt = ChatPromptTemplate.from_messages(
+    [
+        (
+            "system",
+            system,
+        ),
+        ("human", "{input}"),
+    ]
+)
+
+chain = prompt | llm
+
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 class NewsRequest(BaseModel):
     input_str: str
@@ -24,11 +72,9 @@ def check_relevance(query: str):
     relevant_news = [] 
     for news in news_list:
         cosine_similarity_score = cosine_similarity([embedding_model.embed_query(query)], [embedding_model.embed_query(news["title"])])
-        if cosine_similarity_score > 0.5 and cosine_similarity_score < 1:
+        if cosine_similarity_score > 0.7:
             relevant_news.append(news)
-            return True, relevant_news
-        else:
-            return False
+    return relevant_news
 
 
 def check_trusted(news: dict):
@@ -43,33 +89,71 @@ def check_trusted(news: dict):
 
     return is_trusted
 
-def check_fakeness(query: str):
-    if check_relevance(query) != True:
-        return llm.send_message("All you have to do here is to introduce yourself then you will tell the user that his input is not relevant").text
-    elif check_relevance(query)[0] == True:
-        for news in check_relevance(query)[1]:
-            if check_trusted(news) == True:
-                trusted_news =f"""
-                                You Will Tell The User That:/n
-                                This Source is trusted and the news is not fake,/n
-                                and you will return to the user the following information:/n
-                                the title is {news['title']},/n
-                                the link is {news['url']},/n
-                                the date is {news['date']},/n
-                                the source is {news['source']}/n 
-                                """
+# def check_fakeness(query: str):
+#     trusted_template = """"""
+#     untrusted_template = """"""
+#     results = check_relevance(query)
+#     if not results:
+#         messages = f"""
+#                 No relevant news was found for: '{query}'. Possible reasons:
+#                 - The topic is too new or niche.
+#                 - The query may not be news-related.
+#                 - Limited data coverage in our system.
                 
-            else:
-                not_trusted_news = f"""
-                                You Will Tell The User That:/n
-                                This Source is not trusted and the news is fake,/n
-                                and you will return to the user the following information:/n
-                                the title is {news['title']},/n
-                                the link is {news['url']},/n
-                                the date is {news['date']},/n
-                                the source is {news['source']}/n
-                                """
-            return trusted_news + not_trusted_news 
+#                 Suggestions:
+#                 1. Rephrase your search (e.g., use keywords like 'COVID updates' instead of 'Is virus bad?').
+#                 2. Check real-time sources like BBC/Reuters for breaking news."""
+
+#         return llm.invoke(messages).content
+#     for news in results:
+#         if check_trusted(news):
+#             trusted_template+= f"""
+#         **✅ Trusted News Report**  
+#         **Title:** {news['title']}  
+#         **Source:** {news['source']} (Trusted)  
+#         **Date:** {news['date']}  
+#         **Summary:** {news['body']}  
+#         **Read More:** [Full Article]({news['url']})\n\n
+
+#             """
+#         else:
+#             untrusted_template+= f"""
+#         ⚠️ Source not trusted. These news might be fake
+#         **Source:** {news['source']} (Untrusted)\n
+#             """
+#     return trusted_template + untrusted_template
+
 def generate_content(query: str):
-    response = llm.send_message(check_fakeness(query)).text
-    return response
+    trusted_template = """"""
+    untrusted_template = """"""
+    results = check_relevance(query)
+    if not results:
+        messages = f"""
+                No relevant news was found for: '{query}'. Possible reasons:
+                - The topic is too new or niche.
+                - The query may not be news-related.
+                - Limited data coverage in our system.
+                
+                Suggestions:
+                1. Rephrase your search (e.g., use keywords like 'COVID updates' instead of 'Is virus bad?').
+                2. Check real-time sources like BBC/Reuters for breaking news."""
+
+        return llm.invoke(messages).content
+    for news in results:
+        if check_trusted(news):
+            trusted_template+= f"""
+        **✅ Trusted News Report**  
+        **Title:** {news['title']}  
+        **Source:** {news['source']} (Trusted)  
+        **Date:** {news['date']}  
+        **Summary:** {news['body']}
+        **Read More:** [Full Article]({news['url']})\n\n
+
+            """
+        else:
+            untrusted_template+= f"""
+        ⚠️ Source not trusted. These news might be fake
+        **Source:** {news['source']} (Untrusted)\n
+            """
+    return llm.invoke(trusted_template + untrusted_template).content
+
