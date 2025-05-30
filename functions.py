@@ -8,8 +8,8 @@ from transformers import BertTokenizer, BertForSequenceClassification
 import torch
 from pydantic import BaseModel
 import os
-tokenizer = BertTokenizer.from_pretrained("mohamedzabady/bert-fake-news")
-bert_model = BertForSequenceClassification.from_pretrained("mohamedzabady/bert-fake-news")
+tokenizer = BertTokenizer.from_pretrained("mohamedzabady/bert-fake-news",token="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")
+bert_model = BertForSequenceClassification.from_pretrained("mohamedzabady/bert-fake-news",token="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")
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 bert_model.to(device)
@@ -20,39 +20,38 @@ search = DDGS()
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.0-flash",
     api_key="AIzaSyBVusfvWlCSmOKbw6KUQPBl9IYqvEDZnOk",
-    temperature=0.5,
+    temperature=0.0,
 )
 
-system="""Role: You are Rashed, an AI assistant specialized in detecting and analyzing fake news. Your goal is to help users verify news credibility with evidence-based analysis.
+system = """
+You are a concise fact-checking assistant. Analyze news reports and determine if claims are REAL or FAKE.
 
-Instructions:
+## Output Format (MANDATORY):
+Start with: **REAL (X%)** or **FAKE (X%)** where X is your confidence percentage.
 
-Source Evaluation:
+## Response Structure:
+**REAL/FAKE (X%)**
 
-Check if the news comes from a trusted source (e.g., BBC, Reuters). If yes, return structured details (title, source, date, summary, link).
+**Reasoning:** Brief explanation based on trusted sources.
 
-If untrusted, analyze linguistic patterns (sensationalism, lack of sources, emotional manipulation).
-Fact-Checking:
-Cross-reference claims with reputable fact-checking platforms (Snopes, Politifact).
+**Sources:** Number of trusted vs untrusted sources.
 
-Flag inconsistencies, outdated data, or logical fallacies.
+## Guidelines:
+- **REAL**: Supported by trusted sources
+- **FAKE**: Contradicted by trusted sources OR only untrusted sources support it
+- **Confidence**: 60-75% = Some evidence, 76-89% = Strong evidence, 90%+ = Very strong evidence
+- **Keep responses short** - 2-3 sentences maximum for reasoning
+- **Always use markdown formatting**
+- **Prioritize trusted sources heavily**
 
-User Interaction:
+## Example:
+**FAKE (85%)**
 
-For verified news:
+**Reasoning:** Multiple trusted news sources contradict this claim with verified information.
 
-✅ **Trusted News**: "[Headline]" ([Source], [Date]).  
-📌 **Key Points**: [Neutral summary].  
-🔍 [Read more](link).  
-For potential fake news:
-
-⚠️ **Suspicious Content Detected**: "[Headline]"  
-🚩 **Red Flags**: [List reasons, e.g., "Unverified sources", "Clickbait language"].  
-📢 **Suggestions**: Check [Trusted Source] for updates.  
-For irrelevant queries:
-
-❓ **Off-Topic**: Your input isn’t news-related. Try: "Is [claim] true?" or "News about [topic]."
+**Sources:** 3 trusted sources against, 1 untrusted source supporting.
 """
+
 prompt = ChatPromptTemplate.from_messages(
     [
         (
@@ -73,7 +72,7 @@ def check_relevance(query: str):
     relevant_news = [] 
     for news in news_list:
         cosine_similarity_score = cosine_similarity([embedding_model.embed_query(query)], [embedding_model.embed_query(news["title"])])
-        if cosine_similarity_score > 0.7:
+        if cosine_similarity_score > 0.3:
             relevant_news.append(news)
     return relevant_news
 
@@ -90,40 +89,6 @@ def check_trusted(news: dict):
 
     return is_trusted
 
-# def check_fakeness(query: str):
-#     trusted_template = """"""
-#     untrusted_template = """"""
-#     results = check_relevance(query)
-#     if not results:
-#         messages = f"""
-#                 No relevant news was found for: '{query}'. Possible reasons:
-#                 - The topic is too new or niche.
-#                 - The query may not be news-related.
-#                 - Limited data coverage in our system.
-                
-#                 Suggestions:
-#                 1. Rephrase your search (e.g., use keywords like 'COVID updates' instead of 'Is virus bad?').
-#                 2. Check real-time sources like BBC/Reuters for breaking news."""
-
-#         return llm.invoke(messages).content
-#     for news in results:
-#         if check_trusted(news):
-#             trusted_template+= f"""
-#         **✅ Trusted News Report**  
-#         **Title:** {news['title']}  
-#         **Source:** {news['source']} (Trusted)  
-#         **Date:** {news['date']}  
-#         **Summary:** {news['body']}  
-#         **Read More:** [Full Article]({news['url']})\n\n
-
-#             """
-#         else:
-#             untrusted_template+= f"""
-#         ⚠️ Source not trusted. These news might be fake
-#         **Source:** {news['source']} (Untrusted)\n
-#             """
-#     return trusted_template + untrusted_template
-
 def generate_content(query: str):
     trusted_template = """"""
     untrusted_template = """"""
@@ -136,14 +101,13 @@ def generate_content(query: str):
                 - Limited data coverage in our system.
                 
                 Suggestions:
-                1. Rephrase your search (e.g., use keywords like 'COVID updates' instead of 'Is virus bad?').
-                2. Check real-time sources like BBC/Reuters for breaking news."""
+                1. Rephrase your search.
+                2. Check real-time sources """
 
-        return llm.invoke(messages).content
+        return chain.invoke(messages).content
     for news in results:
         if check_trusted(news):
             trusted_template+= f"""
-        **✅ Trusted News Report**  
         **Title:** {news['title']}  
         **Source:** {news['source']} (Trusted)  
         **Date:** {news['date']}  
@@ -156,5 +120,6 @@ def generate_content(query: str):
         ⚠️ Source not trusted. These news might be fake
         **Source:** {news['source']} (Untrusted)\n
             """
-    return llm.invoke(trusted_template + untrusted_template).content
+            
+    return chain.invoke(trusted_template + untrusted_template + f"\n\n based on Reports, the query \"{query}\" are TRUE or FALSE AND WHY \n\n MARKDOWN Answer :").content
 
